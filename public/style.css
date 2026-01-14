@@ -9,6 +9,7 @@
 
     --clr-muted: #888;
     --clr-playing: #FF5722;
+    --clr-gold: #ffd700;
     
     --clr-border: #ddd;
 
@@ -133,6 +134,11 @@ p {
         }
     }
 
+    /* Marked as favorite */
+    .fa-star {
+        color: gold;
+        filter: drop-shadow(0 0 0.5rem var(--clr-gold));
+    }
 
 }
 

@@ -31,6 +31,7 @@ Songs.forEach((song, index) => {
                 <span class="song-title"><a href="${song.fmaLink}" target="_blank">${song.title}</a></span>
                 <span class="song-info">av ${song.artist} (${song.duration})</span>
             </div>
+            ${song.favorite ? '<i class="fas fa-star"></i>' : ''}
             <button class="play-btn" data-index="${index}">Spela</button>
         </div>
     `;
