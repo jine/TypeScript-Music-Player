@@ -44,14 +44,14 @@ export const Songs: Song[] = [
      cover: "https://freemusicarchive.org/image/?file=track_image/98wghHWpZ0rEh9mfzQSwBaja9Bc89g7ibIrGvQZd.jpg&width=290&height=290&type=track",
      fmaLink: "https://freemusicarchive.org/music/yurasoop/single/drone-background-ambientmp3/"
    },
-   {
-     title: "Arras",
-     artist: "Musical Meanderings",
-     duration: "03:08",
-     file: "https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/nZxBCEU4UGcSWvhl0l3PMDyjoTLHIgAqQtR3XFfn.mp3",
-     cover: "https://freemusicarchive.org/img/default/album.jpg",
-     fmaLink: "https://freemusicarchive.org/music/musical-meanderings/single/arras/"
-     },
+    {
+      title: "Rainy Night Hong Kong -T2",
+      artist: "Marcelo Bourdieu",
+      duration: "13:10",
+      file: "https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/xJwpqMsmDInUdFRUIDCzaZCzfWdGi3zkmBzDuo8m.mp3",
+      cover: "https://freemusicarchive.org/image/?file=track_image/hqkTTRPCLVUTWRWiyjqvVOUPcEVvkmegqSblGa8M.jpg&width=290&height=290&type=track",
+      fmaLink: "https://freemusicarchive.org/music/marcelo-bourdieu/view-of-dream/t2/"
+      },
    {
      title: "Soft Inspiring Ambient",
      artist: "YuraSoop",
@@ -108,30 +108,30 @@ export const Songs: Song[] = [
      cover: "https://freemusicarchive.org/image/?file=track_image/ABkSACDcsHpp767VY36jBZENi9m8HlXS7oqJSFCG.png&width=290&height=290&type=track",
      fmaLink: "https://freemusicarchive.org/music/1000-handz/cc-by-free-to-use-melodic-rap-instrumentals/transmission/"
      },
-  {
-    title: "Clouds (Ambient Background Music)",
-    artist: "Alex Productions",
-    duration: "02:45",
-      file: "https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/YqAtDTM2Mg7ZNSH6tK8HHHmevFHzjIpz1NxHPrlw.mp3",
-     cover: "https://freemusicarchive.org/image/?file=track_image/hSlrKDPxvoW3vt2iG0A03R1vKzCXicZayjKozjKQ.jpg&width=290&height=290&type=track",
-    fmaLink: "https://freemusicarchive.org/music/alex-productions/single/ambient-background-music-clouds/"
-  },
    {
-     title: "Tuscan Sun",
-     artist: "Chad Crouch",
-     duration: "03:20",
-     file: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Ambient_Atmospheres/Chad_Crouch_-_Tuscan_Sun.mp3",
-     cover: "https://freemusicarchive.org/image/?file=images/tracks/Track_-_20190416143020138&width=290&height=290&type=track",
-     fmaLink: "https://freemusicarchive.org/music/Chad_Crouch/Ambient_Atmospheres/Tuscan_Sun/"
+     title: "Clouds (Ambient Background Music)",
+     artist: "Alex Productions",
+     duration: "02:45",
+       file: "https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/YqAtDTM2Mg7ZNSH6tK8HHHmevFHzjIpz1NxHPrlw.mp3",
+      cover: "https://freemusicarchive.org/image/?file=track_image/hSlrKDPxvoW3vt2iG0A03R1vKzCXicZayjKozjKQ.jpg&width=290&height=290&type=track",
+     fmaLink: "https://freemusicarchive.org/music/alex-productions/single/ambient-background-music-clouds/"
    },
-   {
-     title: "Ruby",
-     artist: "Chad Crouch",
-     duration: "02:25",
-     file: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Ambient_Atmospheres/Chad_Crouch_-_Ruby.mp3",
-     cover: "https://freemusicarchive.org/image/?file=images/tracks/Track_-_20190416143005999&width=290&height=290&type=track",
-     fmaLink: "https://freemusicarchive.org/music/Chad_Crouch/Ambient_Atmospheres/Ruby/"
-   },
+    {
+      title: "Rainy Night Hong Kong T1",
+      artist: "Marcelo Bourdieu",
+      duration: "05:05",
+      file: "https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/rqTfVJrgrrEsrfnZT4ZjVpM0XeNyodD13H7VHTyS.mp3",
+      cover: "https://freemusicarchive.org/image/?file=track_image/SrCFxSsy8MSAMWd45jZJPDKcqw4FfBOxSanlCnXM.jpg&width=290&height=290&type=track",
+      fmaLink: "https://freemusicarchive.org/music/marcelo-bourdieu/view-of-dream/t1/"
+    },
+    {
+      title: "Blurred intent",
+      artist: "Mark Lingard",
+      duration: "08:00",
+      file: "https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/alMHDWf77w3hLzlOXv28IriuBMfRisyIuzUJRtF3.mp3",
+      cover: "https://freemusicarchive.org/image/?file=track_image/7TvnX5VN4AfbwkoXbou34EWjcLbbzKBZPluDZ4Az.jpg&width=290&height=290&type=track",
+      fmaLink: "https://freemusicarchive.org/music/mark-lingard/single/blurred-intent/"
+    },
    {
      title: "Taut",
      artist: "Chad Crouch",
