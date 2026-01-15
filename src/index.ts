@@ -61,7 +61,8 @@ function nowPlaying(song: Song) {
             <div class="now-playing-info">
                 <div class="now-playing-title">${song.title}</div>
                 <div class="now-playing-artist">av ${song.artist}</div>
-                <div class="now-playing-duration">${song.duration}</div>
+                <div class="now-playing-duration">Längd: ${song.duration}</div>
+                ${song.favorite ? '<span class="now-playing-favorite"><i class="fas fa-star "></i> Denna låt är en favorit!' : ''}
             </div>
         </div>
     `;

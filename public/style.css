@@ -33,6 +33,7 @@
     --font-size-h1: 2rem;
     --font-size-h2: 1.5rem;
     --font-size-p: 1rem;
+    --font-size-125: 1.125rem;
 }
 
 body {
@@ -120,6 +121,19 @@ p {
         color: var(--clr-muted);
         margin-top: var(--gap);
     }
+
+    .now-playing-favorite {
+        display: block;
+        margin-top: var(--gap);
+        color: var(--clr-muted);
+        
+        i {
+            color: var(--clr-gold);
+            
+            filter: drop-shadow(0 0 0.5rem var(--clr-gold));
+        }
+    }
+    
 }
 
 .app-playlist {
