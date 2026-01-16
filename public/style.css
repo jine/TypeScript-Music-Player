@@ -129,7 +129,6 @@ p {
         
         i {
             color: var(--clr-gold);
-            
             filter: drop-shadow(0 0 0.5rem var(--clr-gold));
         }
     }

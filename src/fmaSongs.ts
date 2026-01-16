@@ -10,7 +10,7 @@ export interface Song {
 }
 
 // Sample songs data from Free Music Archive (FMA)
-export const Songs: Song[] = [
+export const songs: Song[] = [
   {
     title: "Dark Ambient",
     artist: "YuraSoop",
