@@ -36,7 +36,7 @@ if (!playlist) {
             </div>
         `;
 
-        // Add event listener to play button
+        // Add individual (per song) event listener to play button
         const playBtn = playlistItem.querySelector('.play-btn') as HTMLButtonElement;
         playBtn.addEventListener('click', () => playSong(index));
 
@@ -146,18 +146,7 @@ function previousSong() {
     playSong(songIndex);
 }
 
-
-// Function to format time in MM:SS format from an seconds-value
-// https://www.programmingbasic.com/convert-seconds-to-minutes-and-seconds-javascript/
-function formatTime(seconds: number): string {
-    const mins = Math.floor(seconds / 60);
-    const secs = Math.floor(seconds % 60);
-
-    return `${mins}:${secs.toString().padStart(2, '0')}`;
-}
-
 // Update the played time as song plays
-
 function timeUpdate() {
     
     // https://stackoverflow.com/questions/11203773/how-can-i-get-the-html5-audios-duration-time
@@ -169,7 +158,7 @@ function timeUpdate() {
     // audio.duration returns a value when it's loaded
     if (audio.duration) {
 
-        // progress = calculate the percentage (0-100)
+        // calculate the percentage (0-100)
         const progress = (audio.currentTime / audio.duration) * 100; 
         progressBar.value = progress.toString();
 
@@ -214,3 +203,13 @@ if(audio) audio.addEventListener('timeupdate', timeUpdate);
 
 // Auto-play next song when current song ends
 if(audio) audio.addEventListener('ended', nextSong);
+
+
+// Function to format time in MM:SS format from an seconds-value
+// https://www.programmingbasic.com/convert-seconds-to-minutes-and-seconds-javascript/
+function formatTime(seconds: number): string {
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+}
